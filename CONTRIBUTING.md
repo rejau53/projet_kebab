@@ -14,7 +14,7 @@ ce REPO c'est la partie Front-End Qui contient :
 #### Dossiers & Fichiers
 * public 
 * src:
-   * asset :contient les images utiliser dans le projet . 
+   * asset :contient les images/logo utilisés dans le projet . 
    * component :contient les composants de l'APP .
        * Home.js   : page d'accueil (choix  Pain)
        * Etape2.js :2 eme page (choix de Viande)
