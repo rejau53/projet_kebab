@@ -36,7 +36,7 @@ Roote  : pour donner a chaque component un roote ( url exemple :"/" .. )
 
 #### Comment Passer le data entre les Components
 
-nous avons utilisé les fonctions predefinies dans React **useHistory** et  **useLocation** chacun à un role
+nous avons utilisé des hooks predefinies dans React **useHistory** et  **useLocation** chacun à un role
 -useHistory: pour naviguer depuis un bouton et envoyer des paramètres
 -useLocation : pour recuperer les paramètres
 
