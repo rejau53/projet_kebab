@@ -1,10 +1,10 @@
-### Projet MAGIC-KABAB 
+### Projet_kebab
 
 ### Architecture De projet 
 
 ce REPO c'est la partie Front-End Qui contient :
 
- #### Librery :
+ #### Librairies :
 
 *fortawesome 
 *react-router-dom
@@ -16,33 +16,34 @@ ce REPO c'est la partie Front-End Qui contient :
 * src:
    * asset :contient les images utiliser dans le projet . 
    * component :contient les composants de l'APP .
-       * Home.js   : page d'acceulle (choix  Pain)
+       * Home.js   : page d'accueil (choix  Pain)
        * Etape2.js :2 eme page (choix de Viande)
        * Etape3.js :3 eme page (choix Salades)
        * Etape4.js :4 eme page (choix Sauces)
        * Recapitulatif.js : Page Recaputilatif
-       * CommandValide.js : CommandValide
+       * CommandValide.js : Commande Validé
        * style.js : Contient le style de app (styled-components)
-   * data.js : base de donner utiliser dans l'APP .
-   * App.js : contient les routes (naviger enter les component)
+   * data.js : base de donnée utiliser dans l'APP .
+   * App.js : contient les routes (naviguer enter les component)
 
-#### Comment Naviger Entre les pages (component)
+#### Comment Naviguer Entre les pages (component)
 
 nous avons utilisé l'API React-router-dom ( Router , Switch ,Roote ).
-Chaque Component à un role , pour faciliter les taches  :(ce n'est pas une def excate et juste mais on peut le définir comme un role principal )
-Router : pour specifier l'emplacement ou on veut afficher les component 
+Chaque composant a un role , pour faciliter les tâches
+Router : pour specifier l'emplacement ou on veut afficher les composants 
 Switch : pour dire a React , tu peux switcher entre les component et ne les affichent pas  en meme temps 
 Roote  : pour donner a chaque component un roote ( url exemple :"/" .. )
 
 #### Comment Passer le data entre les Components
 
 nous avons utilisé les fonctions predefinies dans React **useHistory** et  **useLocation** chacun à un role
--useHistory: pour naviger depuis un button et envoyer des param
--useLocation : pour recuperer les param 
+-useHistory: pour naviguer depuis un bouton et envoyer des paramètres
+-useLocation : pour recuperer les paramètres
 
 plus **localStorage**
+-localStorage: est un objet pour stocker en local les données de l'utilisateur 
 
-#### les Fonctionalités realiser 
+#### les Fonctionalités realisées 
 
 * Proposer le choix du pain: pain, galette ou baguette.
 
