@@ -31,7 +31,7 @@ ce REPO c'est la partie Front-End Qui contient :
 nous avons utilisé l'API React-router-dom ( Router , Switch ,Roote ).
 Chaque composant a un role , pour faciliter les tâches
 Router : pour specifier l'emplacement ou on veut afficher les composants 
-Switch : pour dire a React , tu peux switcher entre les component et ne les affichent pas  en meme temps 
+Switch : pour dire a React , tu peux switcher entre les composants et ne les affichent pas  en meme temps 
 Roote  : pour donner a chaque component un roote ( url exemple :"/" .. )
 
 #### Comment Passer le data entre les Components

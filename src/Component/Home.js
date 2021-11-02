@@ -68,7 +68,7 @@ function Home(params) {
       <ContinerStyle>{choix}</ContinerStyle>
       {JSON.parse(val) ? (
         <CommandeDivPanier>
-          <TotalCommend>Total: {prix}$</TotalCommend>
+          <TotalCommend>Total: {prix}€</TotalCommend>
           {pan.length > 0 ? (
             <BtnPanier
               onClick={() => {
